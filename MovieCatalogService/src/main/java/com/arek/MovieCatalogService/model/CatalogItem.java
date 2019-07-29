@@ -4,6 +4,7 @@ import lombok.*;
 
 @Getter
 @Setter
+@NoArgsConstructor
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 public class CatalogItem {
 
